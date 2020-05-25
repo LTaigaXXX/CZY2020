@@ -1,9 +1,9 @@
 function addByAlp() {
     for(var i in names) {
         if(names[i] in selected) {
-            $('#names').append('<button type="button" class="btn btn-outline-dark namebtn selected" id="' + names[i] + '">' + names[i] + '</button>');
+            $('#names').append('<button type="button" class="btn namebtn selected" id="' + names[i] + '">' + names[i] + '</button>');
         } else {
-            $('#names').append('<button type="button" class="btn btn-outline-dark namebtn" id="' + names[i] + '">' + names[i] + '</button>');
+            $('#names').append('<button type="button" class="btn namebtn" id="' + names[i] + '">' + names[i] + '</button>');
         }
     }
     btnOnClick();
@@ -15,10 +15,10 @@ function addByShow() {
         for(var i in songToNames[song]) {
             var name = songToNames[song][i];
             if(name in selected) {
-                $('#names').append('<button type="button" class="btn btn-outline-dark namebtn selected" id="' + songToNames[song][i] + '">'
+                $('#names').append('<button type="button" class="btn namebtn selected" id="' + songToNames[song][i] + '">'
                 + songToNames[song][i] + '</button>');
             } else {
-                $('#names').append('<button type="button" class="btn btn-outline-dark namebtn" id="' + songToNames[song][i] + '">'
+                $('#names').append('<button type="button" class="btn namebtn" id="' + songToNames[song][i] + '">'
                 + songToNames[song][i] + '</button>');
             }
         }
@@ -91,3 +91,10 @@ function btnOnClick() {
         }
     })
 }
+
+$(".namebtn").mouseover(function() {
+    event.preventDefault();
+})
+.mouseout(function() {
+    event.preventDefault();
+});
