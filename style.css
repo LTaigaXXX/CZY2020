@@ -13,7 +13,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    height: 60%;
+    height: 55%;
     margin-top: 3%;
     font-family: "Microsoft YaHei";
 }
@@ -57,7 +57,7 @@ body {
 #names {
     margin: 2%;
     margin-left: 4%;
-    height: 75%;
+    height: 76%;
     overflow-y: auto;
 }
 
