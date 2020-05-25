@@ -13,6 +13,7 @@ function firstPlace() {
 function pick() {
     $(".main").empty();
     var count = selectedNames.length;
+    first = Math.floor(Math.random() * count);
     while(typeof selectedNames[first] === "undefined"){
         first = Math.floor(Math.random() * count);
     }
