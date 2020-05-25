@@ -1,0 +1,62 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 60%;
+    margin-top: 3%;
+    font-family: "Microsoft YaHei";
+}
+
+.nav-link{
+    color: #F67C96;
+}
+
+.title {
+    text-align:center;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #F67C96!important;
+}
+
+.namebtn.selected {
+    background-color: #343a40;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+}
+
+#names {
+    margin: 2%;
+    margin-left: 4%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.start {
+    background-color: #F67C96!important;
+    border-color: #F67C96!important;
+}
+
+.namebtn {
+    margin: 10px;
+    width: 120px;
+}
