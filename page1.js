@@ -84,7 +84,7 @@ function btnOnClick() {
             selected[$(this).attr('id')] = 0;
             count++;
         }
-        if(count == 0) {
+        if(count === 0) {
             $(".start").addClass("disabled");
         } else {
             $(".start").removeClass("disabled");

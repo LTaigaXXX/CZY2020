@@ -47,7 +47,7 @@ body {
 #names {
     margin: 2%;
     margin-left: 4%;
-    height: 90%;
+    height: 80%;
     overflow-y: auto;
 }
 
@@ -59,4 +59,33 @@ body {
 .namebtn {
     margin: 10px;
     width: 120px;
+}
+
+#vs {
+    text-align:center;
+    color: #F67C96;
+    font-size: 60px;
+    margin-top: 100%;
+}
+
+.cdt {
+    height: 100%;
+    cursor: pointer;
+}
+
+.row {
+    height: 100%;
+}
+
+.name {
+    text-align:center;
+    color: #F67C96;
+    font-size: 40px;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
 }
