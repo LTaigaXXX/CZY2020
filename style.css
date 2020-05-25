@@ -22,6 +22,15 @@ body {
     color: #F67C96;
 }
 
+#warn {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+    color: #F67C96;
+    font-weight: bold;
+    margin: 1px!important;
+}
+
 .title {
     text-align:center;
     margin-top: 7px;
